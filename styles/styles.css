@@ -142,3 +142,28 @@ margin-right: 40px;
 li {
   display: block;
 }
+
+/* Каталог */
+
+.inner-header-title {
+  color:#ffffff;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrums-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
