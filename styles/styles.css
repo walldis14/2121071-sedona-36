@@ -42,6 +42,10 @@ body {
   background-color: #ffffff;
 }
 
+.advantages-list {
+  text-align: center;
+}
+
 .second-heading {
   font-size: 30px;
   line-height: 36px;
@@ -80,6 +84,10 @@ body {
   color: #ffffff;
 }
 
+.services-list {
+  text-align: center;
+}
+
 .services-title {
   font-size: 24px;
   line-height: 28px;
@@ -91,6 +99,20 @@ body {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
+}
+
+.page-footer {
+background-color: #ffffff;
+}
+
+.button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer-phone {
