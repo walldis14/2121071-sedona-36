@@ -19,7 +19,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #F2F2F2;
 }
 
 .page-header {
@@ -36,4 +36,72 @@ body {
   text-decoration: none;
   color: #000000;
   background-color: #ffffff;
-  }
+}
+
+.main-index {
+  background-color: #ffffff;
+}
+
+.second-heading {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.second-heading-description {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+}
+
+.blue-background {
+  background-color: #82B3D3;
+}
+
+.advantages-description {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.services-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.services-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+li {
+  display: block;
+}
