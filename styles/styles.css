@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/ptsans-400.woff2);
+  src: url("fonts/ptsans-400.woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url(fonts/ptsans-700.woff2);
+  src: url("fonts/ptsans-700.woff2");
   font-display: swap;
 }
 
@@ -25,6 +25,8 @@ body {
 .page-header {
   color: #000000;
   background-color: #ffffff;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .navigation-link {
@@ -40,6 +42,8 @@ body {
 
 .main-index {
   background-color: #ffffff;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .advantages-list {
@@ -74,6 +78,14 @@ body {
   background-color: #82B3D3;
 }
 
+.lightblue-background {
+  background-color: #83B3D31F;
+}
+
+.extralightblue-background {
+  background-color: #83B3D333;
+}
+
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
@@ -103,6 +115,8 @@ body {
 
 .page-footer {
 background-color: #ffffff;
+margin-left: 40px;
+margin-right: 40px;
 }
 
 .button {
@@ -113,6 +127,8 @@ background-color: #ffffff;
   background-color: #756157;
   text-transform: uppercase;
   text-decoration: none;
+  border-radius: 4px;
+  padding: 8px 50px;
 }
 
 .footer-phone {
@@ -121,7 +137,6 @@ background-color: #ffffff;
   font-weight: 400;
   text-decoration: none;
   color: #000000;
-
 }
 
 li {
