@@ -131,6 +131,14 @@ margin-right: 40px;
   padding: 8px 50px;
 }
 
+.mail-box {
+  background-color: #000000;
+  background-image: url(images/photo-2.jpg);
+  width: 1200px;
+  height: 415px;
+}
+
+
 .footer-phone {
   font-size: 40px;
   line-height: 40px;
@@ -145,10 +153,14 @@ li {
 
 /* Каталог */
 
+.catalog-hotels {
+color: #ffffff;
+}
+
 .inner-header-title {
-  color:#ffffff;
   font-size: 60px;
   line-height: 78px;
+  color: #ffffff;
 }
 
 .breadcrums-link {
@@ -166,4 +178,114 @@ li {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+}
+
+.hotels-button {
+  background-color: #82B3D3;
+}
+
+.hotels-button-blur {
+  background-color: rgba(28,28,28,0);
+}
+
+.hotels-list-header {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hotels-list-title {
+  font-size: 24px;
+  font-weight: 28px;
+}
+
+.hotels-list-title-discription
+.hotels-list-price {
+  font-size: 18px;
+  font-weight: 21px;
+  color: #333333;
+}
+
+.hotels-list-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.button-hotels-info {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 50px;
+  background-color: #756157;
+}
+
+.button-hotels-chose {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 50px;
+  background-color: #82B3D3;
+}
+
+.button-hotels-chosen {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 50px;
+  background-color: #7DB54F;
+}
+
+.hotel-rate {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #333333;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 50px;
+  background-color: #F2F2F2;
+}
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 8px 50px;
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.mailing-list {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.mailing-list-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.gray-text {
+  color: #333333;
 }

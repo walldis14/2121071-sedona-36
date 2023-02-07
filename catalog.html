@@ -112,13 +112,17 @@
           </fieldset>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-            <input class="field" placeholder="от" type="number" value="0" min="1" max="9000" step="1" name="hotel-price">
-            <input class="field" placeholder="до" type="number" value="9000" min="1" max="9000" step="1" name="hotel-price">
+            <input class="field" placeholder="от" type="number" value="0" min="1" max="9000" step="1"
+              name="hotel-price">
+            <input class="field" placeholder="до" type="number" value="9000" min="1" max="9000" step="1"
+              name="hotel-price">
             <!-- бегунок -->
           </fieldset>
-          <button class="button" type="submit">Применить</button>
-          <button class="button" type="reset">Сбросить</button>
+          <button class="button hotels-button" type="submit">Применить</button>
+          <button class="button hotels-button-blur" type="reset">Сбросить</button>
         </form>
+      </section>
+      <section >
 
 
         <h2 class="hotels-list-header">Найдено гостиниц: 38</h2>
@@ -128,13 +132,13 @@
           <option value="expensive">Сначала дорогое</option>
           <option value="popular">Сначала популярные</option>
         </select>
-        <a class="button" href="#">
+        <a class="button-view" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a class="button" href="#">
+        <a class="button-view" href="#">
           <span class="visually-hidden">Показать на всю страницу</span>
         </a>
-        <a class="button" href="#">
+        <a class="button-view" href="#">
           <span class="visually-hidden">Показать список</span>
         </a>
 
@@ -147,7 +151,7 @@
             </a>
             <p class="hotels-list-title-discription">Гостиница</p>
             <p class="hotels-list-price">От 4000 ₽</p>
-            <a class="button-hotels-info" href="#">Подробнее</a>
+            <a class="button-hotels-info " href="#">Подробнее</a>
             <a class="button-hotels-chose" href="#">В избранное</a>
             <p class="stars star-4">
               <span class="visually-hidden">4 звезды</span>
@@ -225,7 +229,7 @@
 
       <section>
         <h2 class="mailing-list">Подпишитесь на рассылку</h2>
-        <p class="mailing-list-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="mailing-list-description gray-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
