@@ -69,10 +69,13 @@ body {
   background-color: #ffffff;
 }
 
-.logo {
-  display: block;
-  margin: 0px auto;
-}
+/* .logo {
+  background-image: url(.//images/index-background.jpg),
+  url(.//images/welcome.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto;
+  background-position: center, center;
+} */
 
 .advantages-list {
   display: flex;
@@ -133,7 +136,16 @@ body {
 }
 
 .services-list {
+  display: flex;
   text-align: center;
+  justify-content: space-between;
+}
+
+.services-item {
+  margin: 0px auto;
+  width: 400px;
+  padding: 80px 85px 80px 85px;
+
 }
 
 .services-title {
@@ -149,11 +161,19 @@ body {
   font-weight: 400;
 }
 
-.page-footer {
-background-color: #ffffff;
-margin-left: 40px;
-margin-right: 40px;
+.page-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0px auto;
 }
+
+.footer-social {
+  width: 142px;
+}
+
+
 
 .button {
   font-size: 20px;
@@ -169,18 +189,25 @@ margin-right: 40px;
 
 .mail-box {
   background-color: #000000;
-  background-image: url(images/photo-2.jpg);
+  background-image: url(../images/subscription.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 1200px;
   height: 415px;
 }
 
 
 .footer-phone {
+  width: 350px;
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
   text-decoration: none;
   color: #000000;
+}
+
+.button-social {
+  width: 115px;
 }
 
 li {
@@ -190,7 +217,7 @@ li {
 /* Каталог */
 
 .catalog-hotels {
-color: #ffffff;
+  color: #ffffff;
 }
 
 .inner-header-title {
@@ -221,7 +248,7 @@ color: #ffffff;
 }
 
 .hotels-button-blur {
-  background-color: rgba(28,28,28,0);
+  background-color: rgba(28, 28, 28, 0);
 }
 
 .hotels-list-header {
@@ -236,8 +263,7 @@ color: #ffffff;
   font-weight: 28px;
 }
 
-.hotels-list-title-discription
-.hotels-list-price {
+.hotels-list-title-discription .hotels-list-price {
   font-size: 18px;
   font-weight: 21px;
   color: #333333;
