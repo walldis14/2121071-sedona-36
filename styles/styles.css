@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans-400.woff2");
+  src: url("../fonts/ptsans-400.woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans-700.woff2");
+  src: url("../fonts/ptsans-700.woff2");
   font-display: swap;
 }
 
@@ -19,9 +19,10 @@ html {
 }
 
 body {
-  margin: 0%;
+  margin: 0;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -32,8 +33,13 @@ body {
 .container {
   background-color: #ffffff;
   width: 1200px;
-  margin: 0px auto;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -43,13 +49,13 @@ body {
 .navigation {
   display: flex;
   width: 1200px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .navigation-list {
   width: 400px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-user {
@@ -69,19 +75,17 @@ body {
   background-color: #ffffff;
 }
 
-/* .logo {
-  background-image: url(.//images/index-background.jpg),
-  url(.//images/welcome.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 100% auto, 100% auto;
-  background-position: center, center;
-} */
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
 
 .advantages-list {
   display: flex;
   text-align: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-item {
@@ -142,7 +146,7 @@ body {
 }
 
 .services-item {
-  margin: 0px auto;
+  margin: 0;
   width: 400px;
   padding: 80px 85px 80px 85px;
 
@@ -166,7 +170,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .footer-social {
