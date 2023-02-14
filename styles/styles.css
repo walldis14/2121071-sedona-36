@@ -264,7 +264,22 @@ li {
   color: #ffffff;
 }
 
+.filters {
+  background-color: #000000;
+  background-image: url(../images/catalog_images/photo-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  width: 1200px;
+  height: 412px;
+}
+
+.catalog-hotels {
+  display: flex;
+}
+
 .inner-header-title {
+  text-align: left;
   font-size: 60px;
   line-height: 78px;
   color: #ffffff;
@@ -379,6 +394,11 @@ li {
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
+}
+
+.mail-box-catalog {
+  background-position: center;
+  text-align: center;
 }
 
 .mailing-list {
