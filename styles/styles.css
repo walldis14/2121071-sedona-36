@@ -168,10 +168,11 @@ body {
 }
 
 .services-item {
-  margin: 0;
   width: 400px;
-  height: 385px;
-  padding: 80px 85px 80px 85px;
+  min-height: 385px;
+  margin: 0;
+  padding: 0;
+  /* padding: 80px 85px 80px 85px; */
 }
 
 .services-title {
@@ -213,13 +214,30 @@ body {
   padding: 8px 50px;
 }
 
+.feedback {
+  text-align: center;
+}
+
 .mail-box {
   background-color: #000000;
   background-image: url(../images/subscription.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
   width: 1200px;
   height: 415px;
+}
+
+.button-email {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  background-color: #82B3D3;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 8px 50px;
 }
 
 
