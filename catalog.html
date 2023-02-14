@@ -45,7 +45,7 @@
       </nav>
     </header>
     <main class="main-inner main-container">
-      <div class="filters">
+      <div class="page-container">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrums">
@@ -63,8 +63,9 @@
       </header>
 
       <section class="catalog-hotels">
-        <!-- <h2 class="visually-hidden">Список отелей с фильтрами</h2> -->
+        <h2 class="visually-hidden" hidden>Список отелей с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <div class="left-group">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
@@ -111,6 +112,8 @@
               </li>
             </ul>
           </fieldset>
+          </div>
+          <div class="right-group">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость, ₽:</legend>
             <input class="field" placeholder="от" type="number" value="0" min="1" max="9000" step="1"

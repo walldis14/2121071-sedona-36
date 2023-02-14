@@ -264,19 +264,39 @@ li {
   color: #ffffff;
 }
 
-.filters {
+.page-container {
   background-color: #000000;
   background-image: url(../images/catalog_images/photo-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   width: 1200px;
-  height: 412px;
+  height: 405px;
 }
 
-.catalog-hotels {
+/* .catalog-hotels {
   display: flex;
+} */
+
+.left-group {
+  display: flex;
+  width: 371px;
+  min-height: 157px;
 }
+
+/* .catalog-filter-group {
+  display: flex;
+  width: 288px;
+  height: 160px;
+
+}
+
+/* .right-group {
+  display: flex;
+  width: 371px;
+  min-height: 157px;
+
+} */ */
 
 .inner-header-title {
   text-align: left;
