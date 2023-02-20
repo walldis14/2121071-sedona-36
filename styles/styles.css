@@ -213,15 +213,21 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-  margin: 0 auto;
+  min-height: 120px;
+  flex-grow: 1;
 }
 
 .footer-social {
   width: 142px;
+  min-height: 40px;
 }
 
 .footer-social-list {
   list-style: none;
+  display: flex;
+  width: 142px;
+  min-height: 40px;
+  justify-content: space-between;
 }
 
 
