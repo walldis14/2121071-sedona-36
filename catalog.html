@@ -48,23 +48,23 @@
         <section class="page-container">
           <header class="inner-header">
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
-            <ul class="breadcrums">
-              <li class="breadcrums-item">
-                <a class="breadcrums-link visually-hidden" href="index.html">Главная</a>
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link visually-hidden" href="index.html">Главная</a>
                 <img src="images/catalog_images/house.svg" width="12" height="12" alt="Символ домика">
               </li>
-              <li class="breadcrums-item">
+              <li class="breadcrumbs-item">
                 <img src="images/catalog_images/arrow.svg" width="6" height="10" alt="Стрелочка">
               </li>
-              <li class="breadcrums-item">
-                <a class="breadcrums-link">Гостиницы</a>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link">Гостиницы</a>
               </li>
             </ul>
           </header>
 
           <h2 class="visually-hidden">Список отелей с фильтрами</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <section class="left-group">
+            <div class="infrastructure-box">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
@@ -88,6 +88,8 @@
                   </li>
                 </ul>
               </fieldset>
+            </div>
+            <div>
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Тип Жилья:</legend>
                 <ul class="catalog-filter-list">
@@ -111,7 +113,7 @@
                   </li>
                 </ul>
               </fieldset>
-            </section>
+            </div>
             <!-- <div class="right-group"> -->
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Стоимость, ₽:</legend>
@@ -126,16 +128,16 @@
           </form>
         </section>
         <!-- </div> -->
-        <section>
-
-
+        <section class="hotels">
           <h2 class="hotels-list-header">Найдено гостиниц: 38</h2>
 
+          <div class="sorting-container">
           <select class="select-control">
             <option value="cheap">Сначала дешевые</option>
             <option value="expensive">Сначала дорогое</option>
             <option value="popular">Сначала популярные</option>
           </select>
+        </div>
           <a class="button-view" href="#">
             <span class="visually-hidden">Показать карточки</span>
           </a>
@@ -209,6 +211,7 @@
             </li>
           </ul>
 
+          <div class="pagination-container">
           <ul class="pagination">
             <li class="pagination-item">
               <a class="pagination-link pagination-current">1</a>
@@ -229,6 +232,7 @@
               <a class="pagination-link" href="#">10</a>
             </li>
           </ul>
+        </div>
         </section>
 
         <section class="mail-box-catalog">

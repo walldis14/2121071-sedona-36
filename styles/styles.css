@@ -490,21 +490,30 @@ body {
   background-color: #F2F2F2;
 }
 
-.pagination {
-  list-style-type: none;
+.pagination-container {
+  display: flex;
+  padding: 40px;
 }
 
-.pagination-container {
-
+.pagination {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-decoration: none;
   border-radius: 4px;
-  padding: 8px 50px;
+  padding: 12px 25px;
+  width: 60px;
+  height: 60px;
+  margin-right: 8px;
   color: #ffffff;
   background-color: #82B3D3;
 }
