@@ -45,6 +45,7 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .navigation-list {
@@ -106,16 +107,11 @@ body {
   min-height: 384x;
 }
 
-.advantages-item-text-1 {
-  padding: 102px 85px;
-}
-
-.advantages-item-text-2 {
+.advantages-item-text {
   padding: 102px 85px;
 }
 
 .advantages-item-2 {
-  vertical-align: middle;
   width: 400px;
   min-height: 385px;
 }
