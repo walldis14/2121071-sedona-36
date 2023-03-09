@@ -282,11 +282,14 @@ body {
 
 .page-footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 1200px;
+  min-width: 1200px;
   min-height: 120px;
   flex-grow: 1;
+  /* padding-left: 40px; */
+  padding-right: 40px;
+
 }
 
 .footer-social {
@@ -297,14 +300,15 @@ body {
 .footer-social-list {
   list-style: none;
   display: flex;
-  width: 142px;
+  min-width: 142px;
   min-height: 40px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding-inline-start: 0;
 }
 
 .footer-phone {
-  width: 350px;
+  min-width: 350px;
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
@@ -313,7 +317,7 @@ body {
 }
 
 .button-social {
-  width: 115px;
+  min-width: 115px;
 }
 
 .visually-hidden {
