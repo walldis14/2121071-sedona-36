@@ -239,7 +239,9 @@ body {
 
 }
 
-.button {
+.button-header {
+  box-sizing: border-box;
+  display: block;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -248,6 +250,25 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 4px;
+  min-width: 160px;
+  min-height: 36px;
+  text-align: center;
+  padding: 8px 50px;
+}
+
+.button-searching {
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 4px;
+  min-width: 376px;
+  min-height: 52px;
+  text-align: center;
   padding: 8px 50px;
 }
 
@@ -269,6 +290,7 @@ body {
 }
 
 .button-email {
+  box-sizing: border-box;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -277,6 +299,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 4px;
+  border: 0;
   padding: 8px 50px;
 }
 
