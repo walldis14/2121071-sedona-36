@@ -44,18 +44,24 @@ body {
 
 .navigation {
   display: flex;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  align-items: center;
+}
+
+.page-header {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .navigation-user .navigation-link {
@@ -250,6 +256,9 @@ body {
 }
 
 .mail-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #000000;
   background-image: url(../images/subscription.jpg);
   background-repeat: no-repeat;
@@ -257,10 +266,6 @@ body {
   text-align: center;
   width: 1200px;
   height: 415px;
-}
-
-.mailing-box {
-  padding-top: 96px;
 }
 
 .button-email {
@@ -295,6 +300,7 @@ body {
   width: 142px;
   min-height: 40px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-phone {
@@ -327,7 +333,7 @@ body {
   color: #ffffff;
 }
 
-.page-container {
+.form-container {
   background-color: #000000;
   background-image: url(../images/catalog_images/photo-1.jpg);
   background-repeat: no-repeat;
@@ -351,6 +357,11 @@ body {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+}
+
+.catalog-filter {
+  display: flex;
+  justify-content: space-between;
 }
 
 .catalog-filter-list {
@@ -401,6 +412,11 @@ body {
   font-weight: 400;
 }
 
+.hotels {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .hotels-button {
   background-color: #82B3D3;
 }
@@ -427,6 +443,27 @@ body {
   list-style-type: none;
 }
 
+.hotel-card {
+  min-width: 300px;
+  min-height: 438px;
+  margin: 20px;
+}
+
+.hotels-prices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-hotels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+}
+
 .hotels-list-title {
   font-size: 24px;
   font-weight: 28px;
@@ -445,6 +482,8 @@ body {
 }
 
 .button-hotels-info {
+  box-sizing: border-box;
+  display: block;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -452,11 +491,16 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 8px 50px;
+  min-width: 140px;
+  min-height: 36px;
   background-color: #756157;
+  text-align: center;
+  padding: 8px 0;
 }
 
 .button-hotels-chose {
+  box-sizing: border-box;
+  display: block;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -464,11 +508,16 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 8px 50px;
+  padding: 8px 0;
   background-color: #82B3D3;
+  text-align: center;
+  min-width: 140px;
+  min-height: 36px;
 }
 
 .button-hotels-chosen {
+  box-sizing: border-box;
+  display: block;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -476,24 +525,32 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 8px 50px;
+  padding: 8px 0;
   background-color: #7DB54F;
+  text-align: center;
+  min-width: 140px;
+  min-height: 36px;
 }
 
 .hotel-rate {
+  box-sizing: border-box;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
   color: #333333;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 8px 50px;
+  padding: 8px 0;
   background-color: #F2F2F2;
+  min-width: 140px;
+  min-height: 36px;
+  text-align: center;
 }
 
 .pagination-container {
   display: flex;
-  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .pagination {
@@ -501,6 +558,11 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.amara-resort {
+  max-width: 340px;
+  flex-basis: 340px;
 }
 
 .pagination-link {
@@ -531,7 +593,6 @@ body {
 }
 
 .mailing-list {
-  padding-top: 96px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
