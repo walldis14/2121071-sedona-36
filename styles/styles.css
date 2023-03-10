@@ -89,7 +89,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/index-background.jpg);
+  background-image: url(../images/Vector.svg), url(../images/index-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom, center;
   width: 1200px;
   height: 485px;
 }
