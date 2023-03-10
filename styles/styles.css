@@ -492,6 +492,17 @@ body {
   margin-top: 50px;
 }
 
+.button-view {
+  /* min-width: 160px; */
+  /* min-height: 48px; */
+}
+
+.icon-view-all {
+  border: #000000;
+  border-radius: 4px;
+}
+
+
 .select-control {
   min-width: 292px;
   height: 49px;
@@ -651,6 +662,8 @@ body {
 .mail-box-catalog {
   background-position: center;
   text-align: center;
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
 
 .mailing-list {
