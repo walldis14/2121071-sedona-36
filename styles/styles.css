@@ -52,6 +52,7 @@ body {
 
 .logo-header {
   position: relative;
+  margin-top: -11px;
   top: 6px;
   left: 10px;
 }
@@ -181,11 +182,21 @@ body {
 }
 
 .advantages-title {
+  position: relative;
   font-weight: 700;
   font-size: 24px;
   line-height: 22px;
   text-transform: uppercase;
+}
 
+.advantages-title::before {
+  position: absolute;
+  bottom: -18px;
+  left: 80px;
+  width: 60px;
+  height: 2px;
+  background-color: #0000004D;
+  content: "";
 }
 
 .blue-background {
@@ -517,19 +528,19 @@ body {
   list-style: none;
 }
 
-.icon-view .icon-view-buttons:nth-child(1) {
+.button-view-all {
   background-image: url("../images/catalog_images/icon-view-all.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.icon-view .icon-view-buttons:nth-child(2) {
+.button-view-big {
   background-image: url("../images/catalog_images/icon-view-big.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.icon-view .icon-view-buttons:nth-child(3) {
+.button-view-note {
   background-image: url("../images/catalog_images/icon-view-note.svg");
   background-repeat: no-repeat;
   background-position: center;
