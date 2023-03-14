@@ -322,7 +322,9 @@ body {
 }
 
 .newsletter-form {
-  margin: 0;
+  display: flex;
+  margin: 0 auto;
+  max-width: 687px;
   padding: 0;
   min-height: 52px;
 }
@@ -335,6 +337,15 @@ body {
   background-color: #F2F2F2;
   min-height: 52px;
   padding: 0;
+}
+
+.input-price {
+  display: flex;
+  width: 143px;
+}
+
+.input-price-1 {
+  margin-left: 2px;
 }
 
 .button-email {
@@ -446,20 +457,20 @@ body {
 
 .catalog-filter-group {
   padding: 0;
-  margin-top: 40px;
   text-align: left;
-  min-width: 288px;
+  min-width: 200px;
   min-height: 48px;
   border: 0;
 }
 
 .catalog-filter-list {
   padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
-.catalog-filter-group {
-  display: flex;
+.inner-header{
+  margin: ;
 }
 
 .inner-header-title {
@@ -482,7 +493,7 @@ body {
 
   .catalog-filter-item {
   padding: 0;
-  margin: 16px 0;
+  margin: 0;
  }
 
 .buttons {
@@ -564,18 +575,32 @@ body {
   background-image: url("../images/catalog_images/icon-view-all.svg");
   background-repeat: no-repeat;
   background-position: center;
+  width: 48px;
+  height: 48px;
+  display: block;
+  border-radius: 4px;
 }
 
 .button-view-big {
   background-image: url("../images/catalog_images/icon-view-big.svg");
   background-repeat: no-repeat;
   background-position: center;
+  width: 48px;
+  height: 48px;
+  display: block;
+  border-radius: 4px;
+  margin-left: 8px;
 }
 
 .button-view-note {
   background-image: url("../images/catalog_images/icon-view-note.svg");
   background-repeat: no-repeat;
   background-position: center;
+  width: 48px;
+  height: 48px;
+  display: block;
+  border-radius: 4px;
+  margin-left: 8px;
 }
 
 .select-control {
@@ -593,9 +618,9 @@ body {
 }
 
 .hotel-card {
+  margin: 20px;
   min-width: 300px;
   min-height: 438px;
-  margin: 20px;
 }
 
 .hotels-prices {
@@ -609,13 +634,9 @@ body {
 }
 
 .stars {
-  min-width: 140px;
-  background-image: url("../images/catalog_images/star.svg");
-  background-repeat: repeat х;
-  font-size: 18px 17px;
-  background-position: center;
-
+  padding-top: 5px;
 }
+
 .rate {
   display: flex;
   justify-content: space-between;
