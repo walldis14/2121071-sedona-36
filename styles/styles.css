@@ -417,6 +417,60 @@ body {
   overflow: hidden;
 }
 
+/* Модальное окно */
+
+.modal-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F2CC;
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.searching-hotel {
+  width: 717px;
+}
+
+.modal-close-button {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border: none;
+  background-image: url("../images/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.modal-title {
+  grid-row: 1/5;
+  margin: 0;
+  margin-bottom: 64px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.modal-field {
+  position: absolute;
+}
+
 /* Каталог */
 
 .catalog-hotels {
@@ -796,51 +850,4 @@ body {
 
 .gray-text {
   color: #333333;
-}
-
-.modal-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background-color: #F2F2F2CC;
-}
-
-.modal {
-  position: relative;
-  margin: auto;
-  padding: 40px;
-  background-color: #ffffff;
-}
-
-.searching-hotel {
-  width: 717px;
-}
-
-.modal-close-button {
-  position: absolute;
-  padding: 0;
-  top: 0;
-  right: 0;
-  width: 14px;
-  height: 14px;
-  background-color: #ffffff;
-  border: none;
-  background-image: url("../images/close.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-
-.modal-title {
-  margin: 0;
-  margin-bottom: 64px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
 }
