@@ -60,7 +60,8 @@ body {
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  padding: 0;
+  margin-right: 225px;
   border: 0;
   list-style-type: none;
   align-items: center;
@@ -109,7 +110,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/Vector.svg), url(../images/index-background.jpg);
+  background-image: url(../images/vector.svg), url(../images/index-background.jpg);
   background-repeat: no-repeat;
   background-position: bottom, center;
   width: 1200px;
@@ -273,19 +274,20 @@ body {
 
 .button-header {
   box-sizing: border-box;
-  display: block;
-  font-size: 20px;
-  line-height: 36px;
+  width: 160px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
   color: #ffffff;
   background-color: #756157;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 4px;
-  min-width: 160px;
-  min-height: 36px;
   text-align: center;
-  padding: 8px 50px;
 }
 
 .button-searching {
@@ -373,7 +375,6 @@ body {
   min-width: 1200px;
   min-height: 120px;
   flex-grow: 1;
-  /* padding-left: 40px; */
   padding-right: 40px;
 
 }
@@ -420,7 +421,7 @@ body {
 /* Модальное окно */
 
 .modal-container {
-  display: flex;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -430,6 +431,7 @@ body {
 }
 
 .modal {
+  display: block;
   position: relative;
   margin: auto;
   padding: 40px;
@@ -523,7 +525,7 @@ body {
   list-style-type: none;
 }
 
-.inner-header{
+.inner-header {
   margin: ;
 }
 
@@ -543,12 +545,12 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  }
+}
 
-  .catalog-filter-item {
+.catalog-filter-item {
   padding: 0;
   margin: 0;
- }
+}
 
 .buttons {
   display: flex;
@@ -666,14 +668,18 @@ body {
 
 .hotels-cards {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
 }
 
 .hotel-card {
-  margin: 20px;
-  min-width: 300px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  min-width: 340px;
   min-height: 438px;
 }
 
